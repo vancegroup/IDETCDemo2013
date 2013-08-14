@@ -26,3 +26,9 @@ VRPN position 8 - left hand
 
 VRPN Button 0 - right grasp
 VRPN Button 1 - left grasp
+
+
+Required Software:
+
+VRPN - https://github.com/rpavlik/vrpn
+KiwiVR - https://github.com/vancegroup/KiwiVR
