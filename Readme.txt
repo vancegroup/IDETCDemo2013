@@ -32,3 +32,15 @@ Required Software:
 
 VRPN - https://github.com/rpavlik/vrpn
 KiwiVR - https://github.com/vancegroup/KiwiVR
+Base JCONF files - https://github.com/vancegroup/modular-stock-jconf
+VR-Jugglua - https://github.com/vancegroup/vr-jugglua
+
+Instructions:
+
+Download precompiled binaries of VR-Jugglua (if you're on Windows).  Otherwise, download and compile.
+Download and compile VRPN.
+Configure and start VRPN (if using wiimote or Hydra).
+Configure and start KiwiVR using the provided Kinect .xml settings.  This sets up the voice commands
+that will be recognized.
+Start NavTestbed executable and pass in the appropriate base JCONF files for the display that you want to use
+as well as the appropriate mixin which sets device specific settings.
